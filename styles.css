@@ -15,20 +15,8 @@
 text-align: left;
 }
 
-#buyrent{
-    margin: 0;
-    
-}
-#buyrent .buylist{
-    display: flex;
-    padding: 2px;
-    justify-content: space-evenly;
-    list-style-type: none;;
-}
 
-
-
-.carlist{
+#toprated>.carlist{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
