@@ -2,6 +2,11 @@
     background-color: white;
     font-family: sans-serif;
 }
+body{
+    margin: 50px auto 50px auto;
+    background:rgba(255,255,255, 0.8);
+    width: 70%;
+}
 
 #homes> ul> li{
     display: inline-block;

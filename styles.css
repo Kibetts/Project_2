@@ -15,7 +15,9 @@
 text-align: left;
 }
 
-
+#toprated{
+width: 50%;
+}
 #toprated>.carlist{
     display: flex;
     list-style-type: none;
@@ -35,4 +37,8 @@ text-align: left;
 }
 span{
     color: orangered;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
 }
