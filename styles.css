@@ -14,10 +14,18 @@
 .right-text{
 text-align: left;
 }
+
 #buyrent{
+    margin: 0;
+    
+}
+#buyrent .buylist{
     display: flex;
     padding: 2px;
+    justify-content: space-evenly;
+    list-style-type: none;;
 }
+
 
 
 .carlist{
@@ -36,4 +44,7 @@ text-align: left;
 .carlist>li> .merc{
     background-color: orangered;
 
+}
+span{
+    color: orangered;
 }
