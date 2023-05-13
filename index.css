@@ -1,0 +1,20 @@
+*{
+    background-color: white;
+    font-family: sans-serif;
+}
+#homes> ul> li{
+    display: inline-block;
+}
+#logins> ul>li{
+    display: inline-block;
+}
+#homes>ul>li>a {
+    padding: 2px;
+    margin-right: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+#logins>ul>li>a{
+    display: inline-block;
+}
