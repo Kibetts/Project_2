@@ -1,0 +1,39 @@
+#hading1{
+    display: flex;
+    
+}
+
+#heading1>.orangebenz{
+    height: 200px;
+    width: 300px;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    flex-direction: left;
+}
+
+.right-text{
+text-align: left;
+}
+#buyrent{
+    display: flex;
+    padding: 2px;
+}
+
+
+.carlist{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+   
+}
+.carlist li{
+    padding:2px;
+    border: 1px solid black;
+    margin-right: 0;
+    border-radius: 5px;
+   
+}
+.carlist>li> .merc{
+    background-color: orangered;
+
+}
