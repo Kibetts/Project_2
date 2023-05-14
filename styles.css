@@ -3,7 +3,8 @@
     
 }
 
-#heading1>.orangebenz{
+#heading1.orangebenz{
+    display: flex;
     height: 200px;
     width: 300px;
     margin: 0 0 0 0;
@@ -16,12 +17,20 @@ text-align: left;
 }
 
 #toprated{
-width: 50%;
-}
-#toprated>.carlist{
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#toprated li{
+    display: inline-block;
     list-style-type: none;
-    justify-content: space-around;
+    width: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
    
 }
 .carlist li{
@@ -39,6 +48,70 @@ span{
     color: orangered;
 }
 footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  
+
+}
+.image-container{
+    flex-basis: 45%;
+    text-align: center;
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+}
+
+/* #firstRow .cars {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+
+}
+ #secondRow .cars{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+} */
+#carswidth .cars{
+    width: 80%;
+}
+
+.cars{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+/* #firstRow >.cars{
+    background-color: white;
+    box-shadow: 2px 2px 0px grey;
+} */
+
+
+.right-text{
+    text-align: left;
+}
+
+.apps{
     display: flex;
     justify-content: space-between;
 }
