@@ -94,5 +94,8 @@ header> #navigation{
     clear: both;
     display: flex;
     margin: 70;
-    
+
+}
+.J, .K, .N{
+    text-align: center;
 }
