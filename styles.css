@@ -58,12 +58,11 @@ footer{
     margin-bottom: 20px;
     margin-left: 0px;
   
-
 }
 .image-container{
     flex-basis: 45%;
     text-align: center;
-   
+    margin-left: 0px;
 }
 img{
     width: 200px;
@@ -98,7 +97,7 @@ img{
     display: flex;
     justify-content: space-between;
     height: 200px;
-    width: 200px;
+    width: 00px;
     padding: 10px;
 }
 /* #firstRow >.cars{
