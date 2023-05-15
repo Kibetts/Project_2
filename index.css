@@ -138,7 +138,8 @@ header> #navigation{
 button{
     background-color: orangered;
     padding: 5px;
-    margin-top: 0px;
+    margin: 10px;
     border-radius: 7px;
+
     
 }
