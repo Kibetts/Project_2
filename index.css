@@ -99,11 +99,12 @@ header> #navigation{
     display: flex;
     align-items: center;
     height: 350px;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     border-radius: 5px;
     box-shadow: 2px 2px 5px grey;
     margin-bottom: 50px;
     width: 80%;
+    background-color: bisque;
   }
   
   .text-container {
@@ -114,7 +115,7 @@ header> #navigation{
 #downloadsection .app .play{
     height: 100px;
     width: 250px;
-}
+} 
   
   .images-container .app .play{
         height:100px ;
@@ -127,22 +128,6 @@ header> #navigation{
     margin-top: 60px;
   }
 
-/* .text-container {
-    flex: 1;
-}
-
-.images-container {
-    display: flex;
-    align-items: center;
-}
-
-.images-container img {
-    margin-right: 10px;
-}
-
-.car-rental-image {
-    margin-left: auto;
-} */
 
 .J, .K, .N{
     text-align: center;
