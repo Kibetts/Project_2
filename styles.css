@@ -83,6 +83,7 @@ footer{
     text-align: center;
     margin-left: 0px;
 }
+
 img{
     width: 200px;
     height: 200px;
@@ -132,23 +133,13 @@ img{
       flex-wrap: wrap;
     }
   
-    .car1,
-    .car2,
-    .car3,
-    .car4,
-    .car5,
-    .car6 {
+    .car1,.car2,.car3,.car4,.car5,.car6 {
       width: 45%;
     }
   }
   
   @media only screen and (max-width: 480px) {
-    .car1,
-    .car2,
-    .car3,
-    .car4,
-    .car5,
-    .car6 {
+    .car1,  .car2, .car3,.car4,.car5, .car6 {
       width: 100%;
     }
   }
