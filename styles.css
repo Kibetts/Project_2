@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     height:300px;
+    width: 80%;
 }
 
 .left-text {
@@ -60,6 +61,10 @@ text-align: left;
 }
 span{
     color: orangered;
+}
+
+#footer{
+    width: 80%;
 }
 footer{
     display: flex;
@@ -148,24 +153,9 @@ img{
     }
   }
 
-/* #carswidth .cars{
-    width: 80%;
+.image-row{
+    width: 90%;
 }
-
-.cars{
-    display: flex;
-    justify-content: space-between;
-    height: 200px;
-    width: 00px;
-    padding: 20px;
-    margin: 10px;
-
-} */
-/* #firstRow >.cars{
-    background-color: white;
-    box-shadow: 2px 2px 0px grey;
-} */
-
 
 .left-text{
     text-align: left;

@@ -103,6 +103,7 @@ header> #navigation{
     border-radius: 5px;
     box-shadow: 2px 2px 5px grey;
     margin-bottom: 50px;
+    width: 80%;
   }
   
   .text-container {
