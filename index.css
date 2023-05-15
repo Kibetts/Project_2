@@ -5,7 +5,7 @@
 body{
     margin: 50px auto 50px auto;
     background:rgba(255,255,255, 0.8);
-    max-width: 70%;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ header{
     display: flex;
     border-bottom: 2px solid black ;
     padding: 2px;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
 }
 #buyrent{text-decoration: none;}
@@ -84,7 +84,7 @@ header> #navigation{
    
 @media only screen and (min-width:500px){
     body{
-        max-width: 960px;
+        max-width: 90%;
         padding: 20px;
     }
 
@@ -98,8 +98,33 @@ header> #navigation{
 #downloadsection {
     display: flex;
     align-items: center;
-    box-shadow: 2px 2px 0px grey;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 50px;
+  }
+  
+  .text-container {
+    align-items: center;
+    height:100px;
+  }
+  
+#downloadsection .app .play{
+    height: 100px;
+    width: 250px;
 }
+  
+  .images-container .app .play{
+        height:100px ;
+        width: 200px;
+  }
+  .car-rental-image {
+    margin-left: auto;
+    height: 350px;
+    margin-right: 30%;
+    margin-top: 60px;
+  }
 
 /* .text-container {
     flex: 1;
@@ -120,4 +145,8 @@ header> #navigation{
 
 .J, .K, .N{
     text-align: center;
+}
+button{
+    background-color: orangered;
+    padding: 5px;
 }
