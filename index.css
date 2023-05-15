@@ -146,6 +146,7 @@ header> #navigation{
 
 .J, .K, .N{
     text-align: center;
+    font-weight: bold;
 }
 button{
     background-color: orangered;
