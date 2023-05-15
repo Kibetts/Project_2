@@ -23,7 +23,7 @@ header{
     width: 80%;
     justify-content: space-between;
 }
-
+#buyrent{text-decoration: none;}
 
 #buyrent li{
     display: inline-block;
@@ -33,6 +33,9 @@ header{
     border-radius: 5px;
     text-decoration: none;
     
+}
+#buyrent li .buy{
+    background-color: orangered;
 }
 
 #homes>ul>li>a {
@@ -80,6 +83,10 @@ header> #navigation{
 }
    
 @media only screen and (min-width:500px){
+    body{
+        max-width: 960px;
+        padding: 20px;
+    }
 
 }
 
@@ -88,14 +95,29 @@ header> #navigation{
     box-shadow: 2px 2px 5px grey;
 }
 
-
-
-#downloadsection, img{
-    clear: both;
+#downloadsection {
     display: flex;
-    margin: 70;
-
+    align-items: center;
+    box-shadow: 2px 2px 0px grey;
 }
+
+/* .text-container {
+    flex: 1;
+}
+
+.images-container {
+    display: flex;
+    align-items: center;
+}
+
+.images-container img {
+    margin-right: 10px;
+}
+
+.car-rental-image {
+    margin-left: auto;
+} */
+
 .J, .K, .N{
     text-align: center;
 }
