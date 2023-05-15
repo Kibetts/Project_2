@@ -20,8 +20,9 @@ header{
     display: flex;
     border-bottom: 2px solid black ;
     padding: 2px;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 #buyrent{text-decoration: none;}
 
@@ -63,9 +64,10 @@ header{
     border-radius: 5px;
 }
 
-#header{
+.header{
     display: flex;
     justify-content: space-between;
+
 }
 
 header> #navigation{
@@ -90,10 +92,10 @@ header> #navigation{
 
 }
 
-#benzC ,#benzG ,#praga ,#lorenzo, #limo ,#benzE{
+/* #benzC ,#benzG ,#praga ,#lorenzo, #limo ,#benzE{
     width: 200px;
     box-shadow: 2px 2px 5px grey;
-}
+} */
 
 #downloadsection {
     display: flex;
@@ -136,4 +138,7 @@ header> #navigation{
 button{
     background-color: orangered;
     padding: 5px;
+    margin-top: 0px;
+    border-radius: 7px;
+    
 }
