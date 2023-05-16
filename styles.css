@@ -13,19 +13,18 @@
 
 .left-text {
     flex-direction: row;
+    font-size: 30px;
 }
 
-#orangebenz {
+#heading1 #orangebenz {
     flex-direction: row;
-    width: 300px;
+    width: 400px;
     height: 300px;
     margin-left: 250px;
     box-shadow: 2px 2px 5px;
 }
 
-.right-text{
-text-align: left;
-}
+
 
 #toprated{
     display: flex;
@@ -149,7 +148,4 @@ img{
 }
 
 
-.apps{
-    display: flex;
-    justify-content: space-between;
-}
+
